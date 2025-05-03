@@ -16,3 +16,10 @@ python model_generator.py --input bike.jpeg --output bike.obj
 ```
 
 # Libraries Used
+PyTorch
+Numpy
+Maplotlib
+Pillow
+pyrenderer
+PIL
+trimesh

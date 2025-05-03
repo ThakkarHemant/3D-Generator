@@ -6,6 +6,13 @@ So, i started my wn research on different type  of models and endedup with mainl
 But the problems didn't end there after my first successful run the visualization was not working turns out pytorch3D is not being recognised after debugging for hours I found that it some installation error so i switched to pyrender and made a fallback to trimesh.
 
 # Usage
-for text to 3D
+For text to 3D
 ```bash
-python --model_generator.py --input"a simple car"  --ouput cr.obj
+python model_generator.py --input"a simple car"  --ouput car.obj
+```
+For image to 3D
+```bash
+python model_generator.py --input bike.jpeg --output bike.obj
+```
+
+# Libraries Used

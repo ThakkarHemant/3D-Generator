@@ -4,3 +4,8 @@ My first instinct after reading the assignment was it would use some generation 
 So, i started my wn research on different type  of models and endedup with mainly 2 open ai's Shap-e and tencent's Hunyuan3D-2 but after reading about both the models Shap-e fit the use case and provided sample code to refer from so that's the base model i use for this project.
 
 But the problems didn't end there after my first successful run the visualization was not working turns out pytorch3D is not being recognised after debugging for hours I found that it some installation error so i switched to pyrender and made a fallback to trimesh.
+
+# Usage
+for text to 3D
+```bash
+python --model_generator.py --input"a simple car"  --ouput cr.obj

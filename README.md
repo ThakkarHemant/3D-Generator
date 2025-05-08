@@ -20,14 +20,12 @@ python model_generator.py --input bike.jpeg --output bike.obj
 ```bash
 python model_generator.py --input"a simple car"  --ouput car.obj
 ```
-Output:
 <img src="Screenshot 2025-05-03 035426.png" alt="Screenshot 1" width="500">
 
 2.
 ```bash
 python model_generator.py --input bike.jpeg --output bike.obj
 ```
-Output:
 <img src="Screenshot 2025-05-08 190222.png" alt="Screenshot 1" width="500">
 
 # Libraries Used

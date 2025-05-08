@@ -21,14 +21,14 @@ python model_generator.py --input bike.jpeg --output bike.obj
 python model_generator.py --input"a simple car"  --ouput car.obj
 ```
 Output:
-![Screenshot 1](Screenshot 2025-05-03 035426.png)
+<img src="Screenshot 2025-05-03 035426.png" alt="Screenshot 1" width="500">
 
 2.
 ```bash
 python model_generator.py --input bike.jpeg --output bike.obj
 ```
 Output:
-![Screenshot 2](Screenshot 2025-05-08 190222.png)
+<img src="Screenshot 2025-05-08 190222.png" alt="Screenshot 1" width="500">
 
 # Libraries Used
 PyTorch
